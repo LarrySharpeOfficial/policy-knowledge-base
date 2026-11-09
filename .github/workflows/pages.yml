@@ -1,4 +1,4 @@
-name: Build and test
+name: Build and publish gh-pages
 
 on:
   push:
@@ -21,3 +21,35 @@ jobs:
         run: python scripts/build.py
       - name: Test
         run: python -m unittest discover -s tests -v
+      - name: Upload rendered site
+        if: github.event_name != 'pull_request'
+        uses: actions/upload-artifact@v4
+        with:
+          name: rendered-site
+          path: dist
+
+  publish:
+    if: github.event_name != 'pull_request'
+    runs-on: ubuntu-latest
+    needs: build
+    permissions:
+      contents: write
+    steps:
+      - name: Download rendered site
+        uses: actions/download-artifact@v4
+        with:
+          name: rendered-site
+          path: site
+      - name: Publish gh-pages branch
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: |
+          touch site/.nojekyll
+          cd site
+          git init -b gh-pages
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add --all
+          git commit -m "Publish rendered site from ${GITHUB_SHA}"
+          git remote add origin "https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
+          git push --force origin gh-pages
