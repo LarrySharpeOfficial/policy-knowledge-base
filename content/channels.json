@@ -1,0 +1,7 @@
+{
+  "checked_on": "2026-11-09",
+  "channels": [
+    {"name":"Larry Sharpe","channel_id":"UCp2EegvSGEsgc-diPwc0ZHQ","canonical_url":"https://www.youtube.com/channel/UCp2EegvSGEsgc-diPwc0ZHQ","handle_url":"https://www.youtube.com/@TheLarrySharpe","scope":"initial","verification":"The handle resolved to this canonical channel; its description identified it as Larry Sharpe's official channel."},
+    {"name":"The Sharpe Way with Larry Sharpe","channel_id":"UCZhUKklZmc_fYru1DACIMwQ","canonical_url":"https://www.youtube.com/channel/UCZhUKklZmc_fYru1DACIMwQ","handle_url":"https://www.youtube.com/c/TheSharpeWay","scope":"initial","verification":"The public channel URL resolved to this canonical channel."}
+  ]
+}
