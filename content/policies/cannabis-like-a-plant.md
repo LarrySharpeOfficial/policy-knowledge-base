@@ -6,7 +6,7 @@
   "implementation":["Use ordinary agricultural and product rules rather than a cannabis-specific approach wherever feasible.","Pardon and expunge cannabis-only offenses while leaving unrelated offenses untouched.","Use ordinary sales tax treatment rather than additional cannabis-specific taxes."],
   "benefits":["Larry presents simpler regulation as a way to reduce barriers and treat cannabis as a normal legal product.","He presents record relief as a remedy for conduct that is no longer criminal."],
   "tradeoffs":["The source does not fully specify age limits, product-safety rules, impaired-driving enforcement, local authority, or fiscal effects.","The source includes off-the-cuff examples that Larry explicitly says he is making up; those examples are not adopted here as policy details."],
-  "jurisdictions":["New York"],"topics":["cannabis","criminal justice","regulation","taxation"],"attribution":"Larry Sharpe","editorial_status":"draft_unapproved","publication_status":"local_only",
+  "jurisdictions":["New York"],"topics":["cannabis","criminal justice","regulation","taxation"],"attribution":"Larry Sharpe","editorial_status":"approved","publication_status":"published",
   "sources":[
     {"type":"video","title":"Gov Shack No. 68: How Should We Regulate It? LIVE 420 Special & Fundraiser!","url":"https://www.youtube.com/watch?v=1bChgIW8gOA","video_id":"1bChgIW8gOA","channel":"Larry Sharpe","published_date":"2026-04-21","transcript_type":"YouTube auto-generated English transcript","excerpt_start_seconds":189,"timestamp_url":"https://www.youtube.com/watch?v=1bChgIW8gOA&t=189s","quote":"how should you regulate it? ... we should regulate it like ... onions ... treat it like a plant"},
     {"type":"video","title":"Gov Shack No. 68: How Should We Regulate It? LIVE 420 Special & Fundraiser!","url":"https://www.youtube.com/watch?v=1bChgIW8gOA","video_id":"1bChgIW8gOA","channel":"Larry Sharpe","published_date":"2026-04-21","transcript_type":"YouTube auto-generated English transcript","excerpt_start_seconds":1219,"timestamp_url":"https://www.youtube.com/watch?v=1bChgIW8gOA&t=1219s","quote":"if you're a cannabis felon ... you should all be pardoned because it's not a crime anymore and you should have your records expunged ... if you just had cannabis, all that should be completely gone"},
@@ -23,4 +23,4 @@ Larry uses onions as the comparison for ordinary-plant regulation. He also calls
 
 ## Verification boundary
 
-This draft excludes improvised licensing examples and does not invent missing safety or implementation rules. The transcript requires review against the audio before publication.
+This summary excludes improvised licensing examples and does not invent missing safety or implementation rules. Readers should check the linked recording against the auto-generated transcript.
