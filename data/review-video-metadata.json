@@ -1,0 +1,98 @@
+{
+  "batch_id": "initial-expansion",
+  "checked_on": "2026-11-11",
+  "found": 8,
+  "metadata_version": "0.1.0",
+  "missing_video_ids": [],
+  "requested": 8,
+  "videos": [
+    {
+      "availability": "public",
+      "channel": "Larry Sharpe",
+      "channel_id": "UCp2EegvSGEsgc-diPwc0ZHQ",
+      "duration_seconds": 284,
+      "live_status": "not_live",
+      "title": "Affordable Transportation in NY - Free Wifi. No Tolls. Lower Taxes.",
+      "upload_date": "2025-11-25",
+      "url": "https://www.youtube.com/watch?v=qxL7O-GK_TU",
+      "video_id": "qxL7O-GK_TU"
+    },
+    {
+      "availability": "public",
+      "channel": "Larry Sharpe",
+      "channel_id": "UCp2EegvSGEsgc-diPwc0ZHQ",
+      "duration_seconds": 558,
+      "live_status": "not_live",
+      "title": "New York Housing Crisis: Correcting Wrong Solutions",
+      "upload_date": "2025-11-05",
+      "url": "https://www.youtube.com/watch?v=arSBXkIQIgc",
+      "video_id": "arSBXkIQIgc"
+    },
+    {
+      "availability": "public",
+      "channel": "Larry Sharpe",
+      "channel_id": "UCp2EegvSGEsgc-diPwc0ZHQ",
+      "duration_seconds": 143,
+      "live_status": "not_live",
+      "title": "Larry Sharpe - Eliminating Property Tax in New York in Four Years",
+      "upload_date": "2022-08-31",
+      "url": "https://www.youtube.com/watch?v=MBoh1zFgVVw",
+      "video_id": "MBoh1zFgVVw"
+    },
+    {
+      "availability": "public",
+      "channel": "Larry Sharpe",
+      "channel_id": "UCp2EegvSGEsgc-diPwc0ZHQ",
+      "duration_seconds": 137,
+      "live_status": "not_live",
+      "title": "Larry Sharpe - Gen 4 Nuclear Energy",
+      "upload_date": "2022-10-26",
+      "url": "https://www.youtube.com/watch?v=md9UXUiVnTQ",
+      "video_id": "md9UXUiVnTQ"
+    },
+    {
+      "availability": "public",
+      "channel": "Larry Sharpe",
+      "channel_id": "UCp2EegvSGEsgc-diPwc0ZHQ",
+      "duration_seconds": 123,
+      "live_status": "not_live",
+      "title": "Non-taxation funding options for infrastructure and community.",
+      "upload_date": "2023-12-16",
+      "url": "https://www.youtube.com/watch?v=IFfSax8_QsE",
+      "video_id": "IFfSax8_QsE"
+    },
+    {
+      "availability": "public",
+      "channel": "Larry Sharpe",
+      "channel_id": "UCp2EegvSGEsgc-diPwc0ZHQ",
+      "duration_seconds": 646,
+      "live_status": "not_live",
+      "title": "Larry Sharpe on Growth and Eliminating the State Income Tax - Capital Tonight Interview",
+      "upload_date": "2018-02-13",
+      "url": "https://www.youtube.com/watch?v=-m43MQ0j0B4",
+      "video_id": "-m43MQ0j0B4"
+    },
+    {
+      "availability": "public",
+      "channel": "Larry Sharpe",
+      "channel_id": "UCp2EegvSGEsgc-diPwc0ZHQ",
+      "duration_seconds": 644,
+      "live_status": "not_live",
+      "title": "How We Can Fix New York's Education System",
+      "upload_date": "2018-11-05",
+      "url": "https://www.youtube.com/watch?v=GHtsrAlsxaw",
+      "video_id": "GHtsrAlsxaw"
+    },
+    {
+      "availability": "public",
+      "channel": "Larry Sharpe",
+      "channel_id": "UCp2EegvSGEsgc-diPwc0ZHQ",
+      "duration_seconds": 231,
+      "live_status": "not_live",
+      "title": "Larry Sharpe - Promoting New York Homeschooling",
+      "upload_date": "2022-10-26",
+      "url": "https://www.youtube.com/watch?v=dZYj_wfmRZE",
+      "video_id": "dZYj_wfmRZE"
+    }
+  ]
+}

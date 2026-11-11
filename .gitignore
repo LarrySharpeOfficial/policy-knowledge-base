@@ -1,3 +1,6 @@
 __pycache__/
 *.pyc
 dist/
+.test-tmp/
+data/transcripts/
+data/video-passages.json

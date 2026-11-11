@@ -1,0 +1,14 @@
+{
+  "batch_id": "initial-expansion",
+  "editorial_status": "pending_review",
+  "items": [
+    {"video_id": "qxL7O-GK_TU", "candidate_topics": ["transportation", "tolls", "infrastructure"]},
+    {"video_id": "arSBXkIQIgc", "candidate_topics": ["housing", "regulation"]},
+    {"video_id": "MBoh1zFgVVw", "candidate_topics": ["property tax", "local government finance"]},
+    {"video_id": "md9UXUiVnTQ", "candidate_topics": ["energy", "nuclear energy"]},
+    {"video_id": "IFfSax8_QsE", "candidate_topics": ["infrastructure", "non-tax funding"]},
+    {"video_id": "-m43MQ0j0B4", "candidate_topics": ["state income tax", "economic growth"]},
+    {"video_id": "GHtsrAlsxaw", "candidate_topics": ["education reform"]},
+    {"video_id": "dZYj_wfmRZE", "candidate_topics": ["homeschooling", "education"]}
+  ]
+}
