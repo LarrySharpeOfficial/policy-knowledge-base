@@ -1,0 +1,14 @@
+{
+  "$schema":"https://json-schema.org/draft/2020-12/schema",
+  "$id":"https://example.invalid/larry-sharpe-policy.schema.json",
+  "title":"Larry Sharpe policy record","type":"object",
+  "required":["schema_version","id","slug","title","problem","proposal","implementation","benefits","tradeoffs","jurisdictions","topics","attribution","editorial_status","publication_status","sources"],
+  "properties":{
+    "schema_version":{"const":"1.0.0"},"id":{"type":"string","pattern":"^policy-[a-z0-9-]+$"},"slug":{"type":"string","pattern":"^[a-z0-9-]+$"},
+    "title":{"type":"string","minLength":3},"problem":{"type":"string","minLength":10},"proposal":{"type":"string","minLength":10},
+    "implementation":{"type":"array","minItems":1,"items":{"type":"string"}},"benefits":{"type":"array","items":{"type":"string"}},"tradeoffs":{"type":"array","minItems":1,"items":{"type":"string"}},
+    "jurisdictions":{"type":"array","minItems":1,"items":{"type":"string"}},"topics":{"type":"array","minItems":1,"items":{"type":"string"}},"attribution":{"const":"Larry Sharpe"},
+    "editorial_status":{"enum":["draft_unapproved","approved"]},"publication_status":{"enum":["local_only","publishable","published"]},
+    "sources":{"type":"array","minItems":1,"items":{"type":"object","required":["type","title","url","video_id","channel","published_date","transcript_type","excerpt_start_seconds","timestamp_url","quote"],"properties":{"type":{"const":"video"},"title":{"type":"string"},"url":{"type":"string"},"video_id":{"type":"string","minLength":11,"maxLength":11},"channel":{"type":"string"},"published_date":{"type":"string"},"transcript_type":{"type":"string"},"excerpt_start_seconds":{"type":"integer","minimum":0},"timestamp_url":{"type":"string"},"quote":{"type":"string","minLength":10}}}}
+  }
+}

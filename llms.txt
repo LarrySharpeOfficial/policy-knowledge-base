@@ -1,0 +1,7 @@
+# Larry Sharpe Policy Knowledge Base
+
+Public alpha. Canonical snapshot: /policy-knowledge-base/policy-snapshot-v0.1.0.json
+
+- [Regulate cannabis like an ordinary plant](/policy-knowledge-base/policies/cannabis-like-a-plant.html): Treat cannabis like an ordinary plant and product, clear records for cannabis-only offenses, and apply ordinary sales taxation rather than a special cannabis tax structure.
+- [Make education funding follow the student](/policy-knowledge-base/policies/education-funding-portability.html): Move a defined amount of education funding with each student, offer a smaller credit for homeschooling or private school, and allow colleges to finance their own students.
+- [Expand direct access to healthcare](/policy-knowledge-base/policies/healthcare-direct-access.html): Allow doctors to open alternative care facilities at the state level, revisit certificate-of-need restrictions, and give people a healthcare account whose unused balance carries forward.
