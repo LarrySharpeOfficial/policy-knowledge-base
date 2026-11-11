@@ -1,0 +1,183 @@
+{
+  "batch_id": "initial-expansion",
+  "item_count": 8,
+  "items": [
+    {
+      "candidate_topics": [
+        "transportation",
+        "tolls",
+        "infrastructure"
+      ],
+      "channel_id": "UCp2EegvSGEsgc-diPwc0ZHQ",
+      "duration_seconds": 285,
+      "editorial_status": "pending_source_review",
+      "passage_count": 7,
+      "publication_status": "not_publishable",
+      "published_date": "2025-11-25",
+      "required_review": [
+        "check transcript excerpts against audio",
+        "identify direct claims and complete proposal context",
+        "record objections, trade-offs, and missing implementation details",
+        "obtain Jerome approval before creating or publishing a policy record"
+      ],
+      "title": "Affordable Transportation in NY - Free Wifi. No Tolls. Lower Taxes.",
+      "transcript_status": "fetched",
+      "url": "https://www.youtube.com/watch?v=qxL7O-GK_TU",
+      "video_id": "qxL7O-GK_TU"
+    },
+    {
+      "candidate_topics": [
+        "housing",
+        "regulation"
+      ],
+      "channel_id": "UCp2EegvSGEsgc-diPwc0ZHQ",
+      "duration_seconds": 558,
+      "editorial_status": "pending_source_review",
+      "passage_count": 15,
+      "publication_status": "not_publishable",
+      "published_date": "2025-11-05",
+      "required_review": [
+        "check transcript excerpts against audio",
+        "identify direct claims and complete proposal context",
+        "record objections, trade-offs, and missing implementation details",
+        "obtain Jerome approval before creating or publishing a policy record"
+      ],
+      "title": "New York Housing Crisis: Correcting Wrong Solutions",
+      "transcript_status": "fetched",
+      "url": "https://www.youtube.com/watch?v=arSBXkIQIgc",
+      "video_id": "arSBXkIQIgc"
+    },
+    {
+      "candidate_topics": [
+        "property tax",
+        "local government finance"
+      ],
+      "channel_id": "UCp2EegvSGEsgc-diPwc0ZHQ",
+      "duration_seconds": 144,
+      "editorial_status": "pending_source_review",
+      "passage_count": 4,
+      "publication_status": "not_publishable",
+      "published_date": "2022-08-31",
+      "required_review": [
+        "check transcript excerpts against audio",
+        "identify direct claims and complete proposal context",
+        "record objections, trade-offs, and missing implementation details",
+        "obtain Jerome approval before creating or publishing a policy record"
+      ],
+      "title": "Larry Sharpe - Eliminating Property Tax in New York in Four Years",
+      "transcript_status": "fetched",
+      "url": "https://www.youtube.com/watch?v=MBoh1zFgVVw",
+      "video_id": "MBoh1zFgVVw"
+    },
+    {
+      "candidate_topics": [
+        "energy",
+        "nuclear energy"
+      ],
+      "channel_id": "UCp2EegvSGEsgc-diPwc0ZHQ",
+      "duration_seconds": 137,
+      "editorial_status": "pending_source_review",
+      "passage_count": 4,
+      "publication_status": "not_publishable",
+      "published_date": "2022-10-26",
+      "required_review": [
+        "check transcript excerpts against audio",
+        "identify direct claims and complete proposal context",
+        "record objections, trade-offs, and missing implementation details",
+        "obtain Jerome approval before creating or publishing a policy record"
+      ],
+      "title": "Larry Sharpe - Gen 4 Nuclear Energy",
+      "transcript_status": "fetched",
+      "url": "https://www.youtube.com/watch?v=md9UXUiVnTQ",
+      "video_id": "md9UXUiVnTQ"
+    },
+    {
+      "candidate_topics": [
+        "infrastructure",
+        "non-tax funding"
+      ],
+      "channel_id": "UCp2EegvSGEsgc-diPwc0ZHQ",
+      "duration_seconds": 124,
+      "editorial_status": "pending_source_review",
+      "passage_count": 4,
+      "publication_status": "not_publishable",
+      "published_date": "2023-12-16",
+      "required_review": [
+        "check transcript excerpts against audio",
+        "identify direct claims and complete proposal context",
+        "record objections, trade-offs, and missing implementation details",
+        "obtain Jerome approval before creating or publishing a policy record"
+      ],
+      "title": "Non-taxation funding options for infrastructure and community.",
+      "transcript_status": "fetched",
+      "url": "https://www.youtube.com/watch?v=IFfSax8_QsE",
+      "video_id": "IFfSax8_QsE"
+    },
+    {
+      "candidate_topics": [
+        "state income tax",
+        "economic growth"
+      ],
+      "channel_id": "UCp2EegvSGEsgc-diPwc0ZHQ",
+      "duration_seconds": 647,
+      "editorial_status": "pending_source_review",
+      "passage_count": 19,
+      "publication_status": "not_publishable",
+      "published_date": "2018-02-13",
+      "required_review": [
+        "check transcript excerpts against audio",
+        "identify direct claims and complete proposal context",
+        "record objections, trade-offs, and missing implementation details",
+        "obtain Jerome approval before creating or publishing a policy record"
+      ],
+      "title": "Larry Sharpe on Growth and Eliminating the State Income Tax - Capital Tonight Interview",
+      "transcript_status": "fetched",
+      "url": "https://www.youtube.com/watch?v=-m43MQ0j0B4",
+      "video_id": "-m43MQ0j0B4"
+    },
+    {
+      "candidate_topics": [
+        "education reform"
+      ],
+      "channel_id": "UCp2EegvSGEsgc-diPwc0ZHQ",
+      "duration_seconds": 644,
+      "editorial_status": "pending_source_review",
+      "passage_count": 16,
+      "publication_status": "not_publishable",
+      "published_date": "2018-11-05",
+      "required_review": [
+        "check transcript excerpts against audio",
+        "identify direct claims and complete proposal context",
+        "record objections, trade-offs, and missing implementation details",
+        "obtain Jerome approval before creating or publishing a policy record"
+      ],
+      "title": "How We Can Fix New York's Education System",
+      "transcript_status": "fetched",
+      "url": "https://www.youtube.com/watch?v=GHtsrAlsxaw",
+      "video_id": "GHtsrAlsxaw"
+    },
+    {
+      "candidate_topics": [
+        "homeschooling",
+        "education"
+      ],
+      "channel_id": "UCp2EegvSGEsgc-diPwc0ZHQ",
+      "duration_seconds": 232,
+      "editorial_status": "pending_source_review",
+      "passage_count": 6,
+      "publication_status": "not_publishable",
+      "published_date": "2022-10-26",
+      "required_review": [
+        "check transcript excerpts against audio",
+        "identify direct claims and complete proposal context",
+        "record objections, trade-offs, and missing implementation details",
+        "obtain Jerome approval before creating or publishing a policy record"
+      ],
+      "title": "Larry Sharpe - Promoting New York Homeschooling",
+      "transcript_status": "fetched",
+      "url": "https://www.youtube.com/watch?v=dZYj_wfmRZE",
+      "video_id": "dZYj_wfmRZE"
+    }
+  ],
+  "queue_version": "0.1.0"
+}

@@ -13,3 +13,7 @@ Status: public alpha. The initial records are approved for publication, source-b
 Open http://127.0.0.1:8081/.
 
 Every record keeps source URLs, timestamped links, excerpts from YouTube auto-generated transcripts, and explicit editorial/publication status. Transcript errors are not silently corrected; readers should check the linked recording.
+
+## Video ingestion
+
+The repeatable inventory/transcript/passage workflow is documented in `docs/video-ingestion.md`. Extracted passages and review-queue entries remain non-publishable until their source context is reviewed and Jerome approves a policy record.
