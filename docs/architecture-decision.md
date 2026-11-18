@@ -6,7 +6,9 @@ This keeps hosting inexpensive, makes rollback a Git revert, avoids a database a
 
 The first slice uses small dependency-free browser search because three records do not justify a larger index. Pagefind is the preferred next step when corpus size makes measured search quality or payload size inadequate.
 
-Do not include WebMCP in version one. As reviewed on 2026-11-09, Chrome describes it as a proposed standard with experimental/origin-trial access rather than a dependable cross-browser baseline. Keep semantic HTML and versioned JSON suitable for humans and machines; revisit only after interoperable unflagged support and a demonstrated use case.
+The 2026-11-09 decision to defer WebMCP is superseded for a bounded experiment. WebMCP is included only as a read-only progressive enhancement over the existing versioned snapshot: `search_policies` returns stable slugs and `get_policy` returns an exact published record. Static HTML and JSON remain canonical, unsupported browsers keep identical human-facing behavior, and no runtime service or external query dependency is added.
+
+Chrome still describes WebMCP as a proposed, origin-trial feature. Local verification uses Chrome's testing flag; production activation requires an origin-trial token configured at build time and a live discovery check. Registration is all-or-none and abort-backed. If the API changes, the trial expires, registration harms the human UI, or the tool contract returns incorrect records, roll back by reverting the WebMCP integration commit or removing the origin-trial variable; the baseline site remains independently usable.
 
 Primary references:
 
