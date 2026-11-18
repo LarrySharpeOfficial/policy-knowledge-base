@@ -38,7 +38,9 @@ def build():
  if DIST.exists(): shutil.rmtree(DIST)
  (DIST/'assets').mkdir(parents=True); (DIST/'policies').mkdir()
  (DIST/'policy-snapshot-v0.1.0.json').write_bytes(payload); shutil.copy2(ROOT/'schema'/'policy.schema.json',DIST/'policy.schema.json'); shutil.copy2(ROOT/'static'/'style.css',DIST/'assets'/'style.css'); shutil.copy2(ROOT/'static'/'app.js',DIST/'assets'/'app.js')
- links=''.join('<li><a href="policies/'+html.escape(p['slug'])+'.html">'+html.escape(p['title'])+'</a></li>' for p in policies); index=(ROOT/'templates'/'index.html').read_text(encoding='utf-8').replace('{{POLICY_LINKS}}',links); (DIST/'index.html').write_text(index,encoding='utf-8',newline='\n')
+ links=''.join('<li><a href="policies/'+html.escape(p['slug'])+'.html">'+html.escape(p['title'])+'</a></li>' for p in policies)
+ trial_token=os.environ.get('WEBMCP_ORIGIN_TRIAL_TOKEN','').strip(); trial_meta='<meta http-equiv="origin-trial" content="'+html.escape(trial_token,quote=True)+'">' if trial_token else ''
+ index=(ROOT/'templates'/'index.html').read_text(encoding='utf-8').replace('{{POLICY_LINKS}}',links).replace('{{ORIGIN_TRIAL_META}}',trial_meta); (DIST/'index.html').write_text(index,encoding='utf-8',newline='\n')
  for p in policies: (DIST/'policies'/(p['slug']+'.html')).write_text(policy_page(p),encoding='utf-8',newline='\n')
  sitemap='<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">'+''.join('<url><loc>https://larrysharpeofficial.github.io/policy-knowledge-base/policies/'+p['slug']+'.html</loc></url>' for p in policies)+'</urlset>\n'; (DIST/'sitemap.xml').write_text(sitemap,encoding='utf-8',newline='\n')
  llms='# Larry Sharpe Policy Knowledge Base\n\nPublic alpha. Canonical snapshot: /policy-knowledge-base/policy-snapshot-v0.1.0.json\n\n'+'\n'.join('- ['+p['title']+'](/policy-knowledge-base/policies/'+p['slug']+'.html): '+p['proposal'] for p in policies)+'\n'; (DIST/'llms.txt').write_text(llms,encoding='utf-8',newline='\n')
